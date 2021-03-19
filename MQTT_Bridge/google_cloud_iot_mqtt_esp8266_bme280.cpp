@@ -131,7 +131,7 @@ void getPressure()
 }
 
 //===============================================================================
-//  getAltitude - Subroutine to get and print temperature
+//  getAltitude - Subroutine to get and print altitude
 //===============================================================================
 void getAltitude()
 {
