@@ -6,7 +6,7 @@
 
 **MQTT Client**
 
-Using using the [Google Cloud IoT Core JWT](https://github.com/GoogleCloudPlatform/google-cloud-iot-arduino) and [Arduino MQTT](https://github.com/256dpi/arduino-mqtt) libraries
+Using the [Google Cloud IoT Core JWT](https://github.com/GoogleCloudPlatform/google-cloud-iot-arduino) and [Arduino MQTT](https://github.com/256dpi/arduino-mqtt) libraries
 
 
 **MQTT Bridge**
