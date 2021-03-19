@@ -29,6 +29,7 @@ Adafruit_BME280 bme; // I2C
 #define PUBLISH_DELAY 1000 //1 sec
 
 unsigned long delayTime;
+unsigned long lastMillis = 0;
 
 //===============================================================================
 //  Initialization
