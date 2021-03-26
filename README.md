@@ -148,3 +148,15 @@ To create a Cloud Pub/Sub topic, run:
 ##### In Registry details you can see your device details
 ![devices3](images/registry_devices/devices3.png)
 
+#### Setting up BigQuery
+
+![bigQuery1](images/bigQuery/bigQuery1.png)
+
+![bigQuery2](images/bigQuery/bigQuery2.png)
+
+![bigQuery3](images/bigQuery/bigQuery3.png)
+
+![bigQuery4](images/bigQuery/bigQuery4.png)
+
+![bigQuery5](images/bigQuery/bigQuery5.png)
+
