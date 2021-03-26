@@ -67,23 +67,84 @@ It gives globally durable message ingestion service. It helps to connect to othe
 
 ### Steps
 
-#### Setup MQTT in google cloud
+#### 1. Read data From the sensor with microcontroller
 
-#### 1. Creating Google Pub/Sub Topic in Google Cloud
+ESP8266 Arduino code prints BME280 sensor data temperature, pressure, humidity, altitude to the Arduino Serial Plotter (9600)
+
+####  2. MQTT bridge 
+
+MQTT client running on ESP8266  collects data from BME280 and sends to Google cloud IoT
+
+It uses Google Cloud IoT Core JWT and Arduino MQTT libraries
+
+##### a. MQTT Client
+
+Uses the Google Cloud IoT Core JWT and Arduino MQTT libraries
+
+##### b. MQTT Bridge
+
+Connects IoT device to Google Cloud IoT Core using MQTT Mosquitto.
+
+
+
+
+
+#### 3. Setup MQTT in google cloud
+
+
+
+
+##### 1. Creating Google Pub/Sub Topic in Google Cloud
 
 To create a Cloud Pub/Sub topic, run:
 
 	gcloud pubsub topics create mytopic
 ![create pub/sub topic ](images/createpubsubTopic.jpg)
 
-#### 2. Creating Subscription on Pub/Sub
+##### 2. Creating Subscription on Pub/Sub
 
 ![create Subscription on Pub/Sub ](images/createSubscriptionPubSub.jpg)
 
 
-#### 3. publishing Message on Pub sub
+##### 3. publishing Message on Pub sub
 ![publishing Message on Pub sub](images/publishMessagePubSub.jpg)
 
 
-#### 4. listening on pub/sub
+##### 4. listening on pub/sub
 ![listening on pub/sub](images/listeningPubSub.jpg)
+
+
+
+#### 4. Registtry and device creation on Google Cloud
+
+#####  Create Registry for the Project
+
+![registry1](images/registry_devices/registry1.png)
+
+
+#####  Set Registry Properties 
+
+![registry2](images/registry_devices/registry2.png)
+
+
+##### In cloud Pub/Sub topics create a topic
+
+![registry3](images/registry_devices/registry3.png)
+
+![registry4](images/registry_devices/registry4.png)
+
+##### Registry created details
+![registry5](images/registry_devices/registry5.png)
+
+
+##### Go to devices and select CREATE  A DEVICE
+
+![devices1](images/registry_devices/devices1.png)
+
+##### Add Device ID and click create
+![devices2](images/registry_devices/devices2.png)
+
+
+##### In Registry details you can see your device details
+![devices3](images/registry_devices/devices3.png)
+
