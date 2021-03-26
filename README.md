@@ -160,3 +160,10 @@ To create a Cloud Pub/Sub topic, run:
 
 ![bigQuery5](images/bigQuery/bigQuery5.png)
 
+
+#### Setting up DataFlow
+
+![DataFlow](images/dataFlow/dataFlow1.png)
+![DataFlow](images/dataFlow/dataFlow2.png)
+![DataFlow](images/dataFlow/dataFlow3.png)
+![DataFlow](images/dataFlow/dataFlow4.png)
