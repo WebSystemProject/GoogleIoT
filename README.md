@@ -167,3 +167,15 @@ To create a Cloud Pub/Sub topic, run:
 ![DataFlow](images/dataFlow/dataFlow2.png)
 ![DataFlow](images/dataFlow/dataFlow3.png)
 ![DataFlow](images/dataFlow/dataFlow4.png)
+
+
+#### Setting up Google Storage
+
+![googleStorage1](images/googleStorage/googleStorage1.png)
+![googleStorage2](images/googleStorage/googleStorage2.png)
+![googleStorage3](images/googleStorage/googleStorage3.png)
+![googleStorage4](images/googleStorage/googleStorage4.png)
+![googleStorage5](images/googleStorage/googleStorage5.png)
+![googleStorage6](images/googleStorage/googleStorage6.png)
+![googleStorage7](images/googleStorage/googleStorage7.png)
+
