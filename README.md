@@ -179,3 +179,20 @@ To create a Cloud Pub/Sub topic, run:
 ![googleStorage6](images/googleStorage/googleStorage6.png)
 ![googleStorage7](images/googleStorage/googleStorage7.png)
 
+#### Setting up Pub-Sub
+
+
+![pubSub1](images/pubSub/pubSub1.png)
+
+![pubSub2](images/pubSub/pubSub2.png)
+
+![pubSub3](images/pubSub/pubSub3.png)
+
+![pubSub4](images/pubSub/pubSub4.png)
+
+![pubSub5](images/pubSub/pubSub5.png)
+
+![pubSub6](images/pubSub/pubSub6.png)
+
+![pubSub7](images/pubSub/pubSub7.png)
+
