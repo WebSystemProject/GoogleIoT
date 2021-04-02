@@ -16,7 +16,7 @@ This project is based on nodemcu mictocontroller board.
 #### 1. What is Google IOT cloud
 
 
-Google IoT services collects real-time data from IoT devices, at the edge or in the cloud. This is a fully managed service provided by Google. It allows to us to securely connect, ingest and manage data from IoT devices. The combination of Cloud IoT Core with other services on Google's cloud platform provide us a complete package to collect, manage, process and visualize Iot data. 
+Google IoT services collects real time data from IoT devices. They collect data at the edge or in the cloud.This is a fully managed service provided by Google. It allows to us to securely connect, ingest and manage data from IoT devices. The combination of Cloud IoT Core with other services on Google's cloud platform provide us a complete package to collect, manage, process,analyze and visualize Iot data. 
 
 
 
@@ -46,10 +46,13 @@ It is a process of importing data from devices into the Google Cloud services. D
 #### 3. IoT Core MQTT:
 
 MQTT stands for Message Queue Telemetry Transport. It is a messgaing protocol for the Internet of Things.
-It is an OASIS standard protocol used for IoT connectivity. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks.
+It is an OASIS standard protocol used for IoT connectivity.
+This is very simple and lightweight messaging protocol. It is basically designed for the devices which has low bandwdth,high-latency. 
+ 
 
 
-IoT Core provides a secure MQTT broker for IoT devices that are managed by IoT core. The IoT core MQTT broker directly connects with Google cloud Pub/Sub. The advantages of using this protocol is that with the help of configuration management feature, it can send real-time telemetry data and  can immediately receive messages sent from the cloud to the device.
+
+IoT Core provides a secure MQTT messaging protocol for IoT devices and they are managed by IoT core. The IoT core MQTT directly connects with Google cloud Pub/Sub. The advantages of using this protocol is that with the help of configuration management feature, it can send real-time telemetry data and  can immediately receive messages sent from the cloud to the device.
 
 #### 4.Pub/Sub
 
