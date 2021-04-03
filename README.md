@@ -98,7 +98,7 @@ Uses the Google Cloud IoT Core JWT and Arduino MQTT libraries
 
 ##### b. MQTT Bridge
 
-Connects IoT device to Google Cloud IoT Core using Google PUB/SUB Broker
+Connects IoT device to Google Cloud IoT Core using Google PUB/SUB Broker.
 
 
 
