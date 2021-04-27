@@ -8,6 +8,7 @@
 ### 4.  Vijayalaxmi Patil
 
 - CSU Website Tutorial Hosting - http://csweb01.csueastbay.edu/~rg8643/googleiot/index.html
+- YouTube video - https://www.youtube.com/watch?v=AiR-UIOOgiQ
 
 
 This project is based on nodemcu mictocontroller board.
